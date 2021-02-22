@@ -3,10 +3,20 @@
   padding-top: 60px;
   padding-bottom: 60px;
   max-height: 252px;
+
+  & .container {
+    display: flex;
+    align-content: flex-end;
+  }
 }
 
 .address-block {
   margin-top: 20px;
+}
+
+.address-container {
+  margin-right: 70px;
+  width: 231px;
 }
 
 .address,
@@ -23,11 +33,11 @@
   color: var(--contact-footer-color);
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contacts-footer-item:hover,
-.contacts-footer-item:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .contacts-footer-list {
@@ -36,9 +46,4 @@
 
 .contacts-footer-element:not(:first-child) {
   margin-top: 9px;
-}
-
-.footer .container {
-  display: flex;
-  align-content: flex-end;
 }

@@ -14,8 +14,8 @@
 
 .logo-studio {
   color: var(--logo-studio-header-color);
-}
 
-.logo-studio-footer {
-  color: var(--main-color);
+  &-footer {
+    color: var(--main-color);
+  }
 }

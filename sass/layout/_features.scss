@@ -15,21 +15,21 @@
 
 .features-list {
   display: flex;
-}
 
-.features-list-item:not(:last-child) {
-  margin-right: 30px;
-}
+  &-item {
+    width: 270px;
+    height: auto;
 
-.features-list-item {
-  width: 270px;
-  height: auto;
-}
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
 
-.features-list-description {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: var(--description-color);
+  &-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+  }
 }

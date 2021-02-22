@@ -4,4 +4,22 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
+  .header & {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero & {
+    text-align: center;
+    padding: 200px 252px;
+  }
+
+  .activity & {
+    text-align: center;
+  }
+
+  .team & {
+    text-align: center;
+  }
 }

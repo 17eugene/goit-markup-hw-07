@@ -17,11 +17,11 @@
 
   position: relative;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.mailing-btn:hover,
-.mailing-btn:focus {
-  background-color: var(--hover-button-color);
+  &:hover,
+  &:focus {
+    background-color: var(--hover-button-color);
+  }
 }
 
 .mailing-icon {
